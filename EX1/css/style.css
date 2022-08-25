@@ -1,10 +1,17 @@
-.box{height: 700px;
-width: 500px;
-background-color: aliceblue;
-padding: 1%;}
+.box {
+    height: 550px;
+    width: 650px;
+    background-color: aliceblue;
+    padding: 1%;
+}
 
-li {padding-bottom: 20px;}
+li {
+    padding-bottom: 20px;
+}
 
-li, ol, h1, h2{
+h1,
+h3,
+li,
+ol {
     align-content: flex-start;
 }
