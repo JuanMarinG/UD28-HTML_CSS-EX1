@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Secciones y lineas generales de un documento HTML5</title>
+        <link rel="stylesheet" href="/EX1/css/style.css">
+    </head>
+    <body>
+        <div class="box">
+        <h1>
+            <em>
+                <strong>Texto para el ejercicio</strong>
+            </em>
+        </h1>
+
+        <h2>
+            <em>Secciones y lineas generales de un documento HTML<sub>5</sub>
+            </em>
+        </h2>
+
+        <p>La especificación de HTML<sub>5</sub>
+            trae muchos nuevos elementos de los desarrolladores web, permitiendoles
+            describir la estructura de un documento web con semantica estandarizada. Este
+            documento describe estos elementos y como usarlos para definir el perfil de
+            cualquier documento.
+        </p>
+        <h2>
+            <em>
+                <strong>Problemas resueltos por HTML<sub>5</sub>
+                </strong>
+            </em>
+        </h2>
+        <p>La definicion de la estructura de un documento HTML4 y su algoritmo de
+            perfilado es muy tosco y genera numerosos problemas:
+        </p>
+        <ol>
+            <li>HTML<sub>5</sub>quita la necesidad de elementos &lt;div&gt;para definirsecciones semanticas sin definir valores especificos para los atributos class,
+                introduciendo un nuevo elemento, &lt;section&gt;, el elemento de seccion HTML.
+            </li>
+
+            <li>Mezclar varios documentos es dificil: la inclusion de un sub-documento en un
+                documento principal. Esto se resuelve en HTML<sub>5</sub>
+                con los elementos de seccioando (&lt;article&gt;, &lt;section&gt;, &lt;nav&gt;,
+                y &lt;aside&gt;) son siempre subsecciones de su seccion ancestra mas cercana.
+            </li>
+
+            <li>HTML<sub>5</sub>
+                introduce el elemento hgroup que oculta todos los elementos de cabecera excepto
+                el primero de mas alto ranto (por ejemplo, &lt;hgroup&gt; &lt;h1&gt; Justine
+                &lt;/h1&gt; &lt;h2&gt; Les Malheurs de la Vertu &lt;/h2&gt; &lt;/hgroup&gt; crea
+                el perfil 1. Justine)
+            </li>
+        </ol>
+    </div>
+    </body>
 </html>
